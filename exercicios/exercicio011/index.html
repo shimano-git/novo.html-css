@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html</title>
+ <link rel="shortcut icon" href="../exercicio004/Graphics-Vibe-Developer-Html.256.png" type="image/x-icon">
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto03.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto02.png" type="image/png">
+       <img src="imagens/foto01.png" alt="imagem flexivel">
+        
+    </picture>
+    
+    <picture>
+       
+        <img src="../imagens e midias para exercicio/imagem grande.jpg" width="85%">
+    
+
+
+        <figcaption>paisagem grande 85%</figcaption>
+    </picture>
+   
+ <h1>Reprodução de Áudio</h1>
+        <p>Vamos aprender a reproduzir áudio em HTML</p>
+
+  <audio preload="metadata" autoplay controls loop>
+<source src="midia/Chris.Zabriskie.mp3" type="audio/mpeg">
+<source src="midia/Chris.Zabriskie.ogg" type="audio/ogg">
+<source src="midia/Chris.Zabriskie.wave" type="audio/wave">
+<p>Infelizmente seu navegador não pode reproduzir!</p>
+  </audio>
+    
+</body>
+</html>
