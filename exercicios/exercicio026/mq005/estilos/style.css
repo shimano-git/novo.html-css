@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -14,8 +15,22 @@ header >h1 {
     padding: 10px;
     text-align: center;
 }
-menu {
+span#burguer  {
+    background-color: rgb(99, 10, 10);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
     display: block;
+
+}
+span#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
 }
 menu > ul {
     list-style-type: none;
@@ -38,12 +53,15 @@ main {
     background-color: white;
     margin: auto;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 article > h2 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
 }
 article > p {
+    margin-top: 10px;
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
